@@ -107,7 +107,13 @@ automatically, but in some cases you may have to do it manually.
 
 ## GitHub Actions
 
-tbd
+Homebrew can be used on GitHub Actions runners and the setup is even easier.  Just add this one-liner.
+
+```
+- uses: Homebrew/actions/setup-homebrew@master
+```
+
+Check out this workflow for a complete example: [.github/workflows/homebrew.yml](https://github.com/chingc/tutorial-github-actions/blob/main/.github/workflows/homebrew.yml)
 
 ## Uninstall
 
